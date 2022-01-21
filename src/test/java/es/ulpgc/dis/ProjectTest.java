@@ -71,7 +71,7 @@ public class ProjectTest {
     }
 
     @Test
-    public void test_zero()
+    public void test_getWorkLoadProjects()
     {
         List<Project> projects = new ArrayList<>();
         projects.add(projectA);
