@@ -5,7 +5,6 @@ import java.util.List;
 
 public class ProjectManager {
     private String firstName;
-    private String lastName;
 
     private final List<Developer> managedTeam;
 
@@ -20,15 +19,6 @@ public class ProjectManager {
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName.toUpperCase();
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
     }
 
     public List<Developer> getManagedTeam() {
