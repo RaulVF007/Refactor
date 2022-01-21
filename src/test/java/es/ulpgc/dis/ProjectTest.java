@@ -44,7 +44,7 @@ public class ProjectTest {
 
         projectManager0.workLoad = 1800; // full time in one project
         projectManager0.setFirstName("James");
-        projectManager0.setLastName("Johnson");
+        projectManager0.setLastName();
         projectManager0.addManagedDeveloper(developer0);
         projectManager0.addManagedDeveloper(developer1);
         projectManager0.addManagedDeveloper(developer2);
@@ -52,7 +52,7 @@ public class ProjectTest {
 
         projectManager1.workLoad = (int) (1800.0 * 0.5); // part time 50% in one project
         projectManager1.setFirstName("Isabella");
-        projectManager1.setLastName("Smith");
+        projectManager1.setLastName();
         projectManager1.addManagedDeveloper(developer0);
         projectManager1.addManagedDeveloper(developer2);
         projectManager1.addManagedDeveloper(developer3);
