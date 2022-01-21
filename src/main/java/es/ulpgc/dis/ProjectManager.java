@@ -7,7 +7,7 @@ public class ProjectManager {
     private String firstName;
     private String lastName;
 
-    private List<Developer> managedTeam;
+    private final List<Developer> managedTeam;
 
     public int workLoad;
 
