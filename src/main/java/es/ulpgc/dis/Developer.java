@@ -12,16 +12,6 @@ public class Developer {
     public Developer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.projects = new ArrayList<Project>();
+        this.projects = new ArrayList<>();
     }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-
 }
