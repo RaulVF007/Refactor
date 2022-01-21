@@ -72,11 +72,11 @@ public class ProjectTest {
     @Test
     public void test_zero()
     {
-        List<Project> projects = new ArrayList<Project>();
+        List<Project> projects = new ArrayList<>();
         projects.add(projectA);
         projects.add(projectB);
 
-        List<ProjectManager> projectManagerList = new ArrayList<ProjectManager>();
+        List<ProjectManager> projectManagerList = new ArrayList<>();
         projectManagerList.add(projectManager0);
         projectManagerList.add(projectManager1);
 
