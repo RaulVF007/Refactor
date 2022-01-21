@@ -16,6 +16,12 @@ public class ProjectTest {
     private ProjectManager projectManager0;
     private ProjectManager projectManager1;
 
+    private Developer developer0;
+    private Developer developer1;
+    private Developer developer2;
+    private Developer developer3;
+    private Developer developer4;
+
     @Before
     public void init(){
         projectManager0 = new ProjectManager();
@@ -24,12 +30,7 @@ public class ProjectTest {
         projectA = new Project("Project A", projectManager0);
         projectB = new Project("Project B", projectManager1);
 
-        Developer developer0 = new Developer("Jessica", "Jones");
-        Developer developer1 = new Developer("Charlie", "Taylor");
-        Developer developer2 = new Developer("William", "Brown");
-        Developer developer3 = new Developer("Sophie", "Wilson");
-        Developer developer4 = new Developer("Emily", "Yhomas");
-
+        developer0 = new Developer("Jessica", "Jones");
         developer0.workLoad = (int) (1800.0 * 0.75 * 0.5); // part time 75% in two projects
         developer0.projects.add(projectA);
         developer0.projects.add(projectB);
