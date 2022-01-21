@@ -12,7 +12,7 @@ public class ProjectManager {
     public int workLoad;
 
     public ProjectManager() {
-        this.managedTeam = new ArrayList<Developer>();
+        this.managedTeam = new ArrayList<>();
     }
 
     public void setFirstName(String firstName) {
