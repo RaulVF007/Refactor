@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProjectManager {
-    private String firstName;
 
     private final List<Developer> managedTeam;
 
@@ -15,7 +14,7 @@ public class ProjectManager {
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName.toUpperCase();
+        String firstName1 = firstName.toUpperCase();
     }
 
     public void setLastName(String lastName) {
